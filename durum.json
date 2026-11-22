@@ -1,15 +1,16 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-22T02:40:00Z",
+  "updated_at": "2026-11-22T13:59:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. Hesaplar, alan adı ve logo tamam. Sırada numune siparişi ve tedarikçi seçimi var.",
-  "runs": {"claude": "2026-11-22T02:40:00Z", "chatgpt": null},
+  "note": "Hazırlık sürüyor. Sırada numune siparişi ve tedarikçi seçimi var; hattın günlük görevleri onay bekliyor.",
+  "runs": {"claude": "2026-11-22T13:59:00Z", "chatgpt": null},
   "phase": {"no": 0, "name": "Hazırlık", "gate_name": "Talep testi başlangıcı", "gate_date": "2026-11-27"},
   "tasks": [
-    {"id": "durum-kaynagi", "title": "Satış sayfasında durum kaynağı adresini gir", "done": false, "due": "2026-11-22", "done_at": null},
     {"id": "numune-siparisi", "title": "İki numuneyi kendi fotoğrafınla sipariş et (bileklik ve kolye)", "done": false, "due": "2026-11-23", "done_at": null},
+    {"id": "gorev-onayi", "title": "Hattın günlük görev metinlerini oku ve onayla", "done": false, "due": "2026-11-23", "done_at": null},
     {"id": "alan-adi-guvenlik", "title": "Alan adı hesabında iki adımlı doğrulamayı aç ve yenileme hatırlatıcısı kur", "done": false, "due": "2026-11-24", "done_at": null},
+    {"id": "durum-kaynagi", "title": "Satış sayfasında durum kaynağı adresini gir", "done": true, "due": null, "done_at": null},
     {"id": "hesaplar", "title": "E-posta, Instagram, TikTok ve YouTube hesaplarını aç", "done": true, "due": null, "done_at": null},
     {"id": "alan-adi", "title": "Alan adını al", "done": true, "due": null, "done_at": null},
     {"id": "logo", "title": "Logoyu seç; profil görselini ve kapağı yükle", "done": true, "due": null, "done_at": null}
