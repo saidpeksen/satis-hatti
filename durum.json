@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T07:52:00Z",
+  "updated_at": "2026-11-23T08:00:00Z",
   "name": "The Picked Few",
   "note": "Hazırlık sürüyor. ChatGPT görevi kuruldu, ilk taraması 11.00'de. İlk iki ürün görseli hazır; sırada sahne seti, destek adresi denemesi ve tedarikçi fiyatları var.",
   "runs": {
-    "claude": "2026-11-23T07:52:00Z",
+    "claude": "2026-11-23T08:00:00Z",
     "chatgpt": null
   },
   "phase": {
@@ -32,9 +32,9 @@
     {
       "id": "alan-adi-guvenlik",
       "title": "Alan adı hesabında iki adımlı doğrulamayı aç ve yenileme hatırlatıcısı kur",
-      "done": false,
-      "due": "2026-11-24",
-      "done_at": null
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T08:00:00Z"
     },
     {
       "id": "urun-gorseli",
