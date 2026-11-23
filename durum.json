@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T08:10:00Z",
+  "updated_at": "2026-11-23T08:20:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. Ürün görselleri onaylandı; ilk video onay bekliyor. Günlük görev sıradaki video paketlerini hazırlayacak.",
+  "note": "Hazırlık sürüyor. İlk video onaylandı; yayını bekleme listesi sayfası açılınca. Günlük görev sıradaki paketleri hazırlayacak.",
   "runs": {
-    "claude": "2026-11-23T08:10:00Z",
+    "claude": "2026-11-23T08:20:00Z",
     "chatgpt": null
   },
   "phase": {
@@ -16,18 +16,18 @@
   },
   "tasks": [
     {
-      "id": "video-01-onay",
-      "title": "01 numaralı videoyu izle; beğendiysen sohbete \"01 onay\" yaz",
-      "done": false,
-      "due": "2026-11-24",
-      "done_at": null
-    },
-    {
       "id": "destek-denemesi",
       "title": "Destek adresine deneme e-postası gönder; marka kutusuna düştüğünü kontrol et",
       "done": false,
       "due": "2026-11-23",
       "done_at": null
+    },
+    {
+      "id": "video-01-onay",
+      "title": "01 numaralı videoyu izle; beğendiysen sohbete \"01 onay\" yaz",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T08:20:00Z"
     },
     {
       "id": "gorsel-onayi",
@@ -124,13 +124,14 @@
       "slug": "01-fotograf-tasta",
       "kind": "video",
       "title": "The photo only appears when you shine a light",
-      "summary": "Açı: fotoğrafın taştan çıktığı an (canlandırma). Işık tutulunca köpek yavrusu fotoğrafı belirir.",
-      "stage": "onay",
-      "next": "sen",
+      "summary": "Onaylandı. Yayın, bekleme listesi sayfası açılınca.",
+      "stage": "beklemede",
+      "next": "claude",
       "file": true,
       "bytes": 4722007,
       "sha256": "7016a6f13f43c2d4025f43fa5a0be2c3edd8cc5f367e290916ca4d698f43ba78",
-      "ready_at": "2026-11-23T08:10:00Z"
+      "ready_at": "2026-11-23T08:10:00Z",
+      "approved_at": "2026-11-23T08:20:00Z"
     }
   ]
 }
