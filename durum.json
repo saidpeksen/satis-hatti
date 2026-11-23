@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T08:46:12Z",
+  "updated_at": "2026-11-23T10:30:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. 02 ve 03 numaralı videolar onay bekliyor; 04 numaralı paket kurgu sırasında. 01 onaylı, yayını bekleme listesi sayfası açılınca.",
+  "note": "Hazırlık sürüyor. 02 ve 03 numaralı videolar bu sayfada kararını bekliyor; 04 kurgu sırasında. 01 onaylı. Yayın, bekleme listesi sayfası açılınca başlar.",
   "runs": {
     "claude": "2026-11-23T08:46:12Z",
     "chatgpt": "2026-11-23T08:04:00Z"
@@ -16,8 +16,15 @@
   },
   "tasks": [
     {
-      "id": "video-onay",
-      "title": "Onay bekleyen videoları (02, 03) izle; kararını sohbete yaz (\"02 onay\" ya da \"02 düzelt: …\")",
+      "id": "kopru-baglantisi",
+      "title": "Bu sayfada \"Bağlantı üret\"e bas; bağlantıyı ChatGPT'deki görev metnine yapıştır (başka yere yazma)",
+      "done": false,
+      "due": "2026-11-23",
+      "done_at": null
+    },
+    {
+      "id": "instagram-oturumu",
+      "title": "ChatGPT'nin tarayıcısında Instagram'da @thepickedfew oturumunu aç (mesaj kontrolü burada durdu)",
       "done": false,
       "due": null,
       "done_at": null
