@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T08:00:00Z",
+  "updated_at": "2026-11-23T08:10:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. ChatGPT görevi kuruldu, ilk taraması 11.00'de. İlk iki ürün görseli hazır; sırada sahne seti, destek adresi denemesi ve tedarikçi fiyatları var.",
+  "note": "Hazırlık sürüyor. Ürün görselleri onaylandı; ilk video onay bekliyor. Günlük görev sıradaki video paketlerini hazırlayacak.",
   "runs": {
-    "claude": "2026-11-23T08:00:00Z",
+    "claude": "2026-11-23T08:10:00Z",
     "chatgpt": null
   },
   "phase": {
@@ -16,10 +16,10 @@
   },
   "tasks": [
     {
-      "id": "gorsel-onayi",
-      "title": "Ürün görsellerinin görünüşünü onayla; sahne seti talimatını ChatGPT'ye ver",
+      "id": "video-01-onay",
+      "title": "01 numaralı videoyu izle; beğendiysen sohbete \"01 onay\" yaz",
       "done": false,
-      "due": "2026-11-23",
+      "due": "2026-11-24",
       "done_at": null
     },
     {
@@ -28,6 +28,13 @@
       "done": false,
       "due": "2026-11-23",
       "done_at": null
+    },
+    {
+      "id": "gorsel-onayi",
+      "title": "Ürün görsellerinin görünüşünü onayla; sahne seti talimatını ChatGPT'ye ver",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T08:10:00Z"
     },
     {
       "id": "alan-adi-guvenlik",
@@ -111,6 +118,19 @@
       "summary": "İkinci ürün. Fiyat bilgisi bekleniyor; görseli bileklikten sonra hazırlanacak.",
       "stage": "kurgu",
       "next": "chatgpt"
+    },
+    {
+      "no": 3,
+      "slug": "01-fotograf-tasta",
+      "kind": "video",
+      "title": "The photo only appears when you shine a light",
+      "summary": "Açı: fotoğrafın taştan çıktığı an (canlandırma). Işık tutulunca köpek yavrusu fotoğrafı belirir.",
+      "stage": "onay",
+      "next": "sen",
+      "file": true,
+      "bytes": 4722007,
+      "sha256": "7016a6f13f43c2d4025f43fa5a0be2c3edd8cc5f367e290916ca4d698f43ba78",
+      "ready_at": "2026-11-23T08:10:00Z"
     }
   ]
 }
