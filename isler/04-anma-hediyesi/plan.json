@@ -1,0 +1,57 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G02",
+      "sure": 3.2,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.7
+      ],
+      "yazi": "Some photos you want to keep close"
+    },
+    {
+      "gorsel": "G04",
+      "sure": 2.8,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.55
+      ]
+    },
+    {
+      "gorsel": "G07",
+      "sure": 2.6,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ],
+      "yazi": "Hold it up to a light"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 4.0,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H03",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G01",
+      "sure": 3.0,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}

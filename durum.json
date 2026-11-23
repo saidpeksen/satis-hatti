@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T08:20:00Z",
+  "updated_at": "2026-11-23T08:46:12Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. İlk video onaylandı; yayını bekleme listesi sayfası açılınca. Günlük görev sıradaki paketleri hazırlayacak.",
+  "note": "Hazırlık sürüyor. 02 ve 03 numaralı videolar onay bekliyor; 04 numaralı paket kurgu sırasında. 01 onaylı, yayını bekleme listesi sayfası açılınca.",
   "runs": {
-    "claude": "2026-11-23T08:20:00Z",
-    "chatgpt": null
+    "claude": "2026-11-23T08:46:12Z",
+    "chatgpt": "2026-11-23T08:04:00Z"
   },
   "phase": {
     "no": 0,
@@ -15,6 +15,13 @@
     "gate_date": "2026-11-27"
   },
   "tasks": [
+    {
+      "id": "video-onay",
+      "title": "Onay bekleyen videoları (02, 03) izle; kararını sohbete yaz (\"02 onay\" ya da \"02 düzelt: …\")",
+      "done": false,
+      "due": null,
+      "done_at": null
+    },
     {
       "id": "destek-denemesi",
       "title": "Destek adresine deneme e-postası gönder; marka kutusuna düştüğünü kontrol et",
@@ -132,6 +139,38 @@
       "sha256": "7016a6f13f43c2d4025f43fa5a0be2c3edd8cc5f367e290916ca4d698f43ba78",
       "ready_at": "2026-11-23T08:10:00Z",
       "approved_at": "2026-11-23T08:20:00Z"
+    },
+    {
+      "no": 4,
+      "slug": "02-hediye-fikri",
+      "kind": "video",
+      "title": "This gift is hiding a photo inside",
+      "summary": "Hediye fikri. Kutu açılır, taşın içindeki fotoğraf ışıkla belirir (canlandırma).",
+      "stage": "onay",
+      "file": true,
+      "bytes": 4647606,
+      "sha256": "8aae6448346c884b87beb444c243ea737552776e8341c1e2efd3f4591c02ec52",
+      "ready_at": "2026-11-23T08:46:12Z"
+    },
+    {
+      "no": 5,
+      "slug": "03-evcil-hayvan",
+      "kind": "video",
+      "title": "My cat is hidden inside this bracelet",
+      "summary": "Evcil hayvan fotoğrafı. Bilekteki taştan kedi fotoğrafı yansır (canlandırma).",
+      "stage": "onay",
+      "file": true,
+      "bytes": 4546856,
+      "sha256": "ba81ac1229593dd431a28c0ffb70fa567bd229ce36b8948382dc896857f157af",
+      "ready_at": "2026-11-23T08:46:12Z"
+    },
+    {
+      "no": 6,
+      "slug": "04-anma-hediyesi",
+      "kind": "video",
+      "title": "A photo to keep close, hidden in a stone",
+      "summary": "Anma hediyesi. Yakın tutmak istenen bir fotoğraf taşın içinde (canlandırma).",
+      "stage": "kurgu"
     }
   ]
 }
