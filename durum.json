@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-22T14:21:00Z",
+  "updated_at": "2026-11-23T07:25:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. Hat kuruldu: Claude görevi her gün çalışacak. Sırada numune siparişi, tedarikçi fiyatları ve ChatGPT görevinin kurulması var.",
+  "note": "Hazırlık sürüyor. Numune alınmayacak; tanıtım videoları onaylanacak ürün görsellerinden hazırlanacak. Destek adresi kuruldu, denemesi bekliyor. Sırada ürün görseli, tedarikçi fiyatları ve ChatGPT görevinin kurulması var.",
   "runs": {
-    "claude": "2026-11-22T14:21:00Z",
+    "claude": "2026-11-23T07:25:00Z",
     "chatgpt": null
   },
   "phase": {
@@ -16,25 +16,25 @@
   },
   "tasks": [
     {
-      "id": "numune-siparisi",
-      "title": "İki numuneyi kendi fotoğrafınla sipariş et (bileklik ve kolye)",
+      "id": "urun-gorseli",
+      "title": "Ürün görseli talimatını ChatGPT'ye ver; gelen görselleri Claude'a gönder",
       "done": false,
       "due": "2026-11-23",
       "done_at": null
     },
     {
       "id": "chatgpt-gorevi",
-      "title": "ChatGPT'ye \"Satış hattı taraması\" görev metnini ver (her gün 11.00 ve 20.30)",
+      "title": "ChatGPT'ye \"Satış hattı taraması\" görev metnini ver (güncel sürüm; her gün 11.00 ve 20.30)",
       "done": false,
       "due": "2026-11-23",
       "done_at": null
     },
     {
-      "id": "gorev-onayi",
-      "title": "Hattın günlük görev metinlerini oku ve onayla",
-      "done": true,
-      "due": null,
-      "done_at": "2026-11-22T14:21:00Z"
+      "id": "destek-denemesi",
+      "title": "Destek adresine deneme e-postası gönder; marka kutusuna düştüğünü kontrol et",
+      "done": false,
+      "due": "2026-11-23",
+      "done_at": null
     },
     {
       "id": "alan-adi-guvenlik",
@@ -42,6 +42,20 @@
       "done": false,
       "due": "2026-11-24",
       "done_at": null
+    },
+    {
+      "id": "destek-adresi",
+      "title": "Destek e-posta yönlendirmesini kur",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T06:40:00Z"
+    },
+    {
+      "id": "gorev-onayi",
+      "title": "Hattın günlük görev metinlerini oku ve onayla",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-22T14:21:00Z"
     },
     {
       "id": "durum-kaynagi",
@@ -78,16 +92,16 @@
       "slug": "01-projeksiyon-bileklik",
       "kind": "urun",
       "title": "Fotoğraflı projeksiyon bileklik",
-      "summary": "İlk ürün. Tedarikçi fiyatları toplanıyor; numune bekleniyor.",
+      "summary": "İlk ürün. Tedarikçi fiyatları toplanıyor; tanıtım için ürün görseli hazırlanıyor.",
       "stage": "kurgu",
-      "next": "chatgpt"
+      "next": "sen"
     },
     {
       "no": 2,
       "slug": "02-projeksiyon-kolye",
       "kind": "urun",
       "title": "Fotoğraflı projeksiyon kolye",
-      "summary": "İkinci ürün. Fiyat bilgisi ve numune bekleniyor.",
+      "summary": "İkinci ürün. Fiyat bilgisi bekleniyor; görseli bileklikten sonra hazırlanacak.",
       "stage": "kurgu",
       "next": "chatgpt"
     }
