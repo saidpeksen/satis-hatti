@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T07:25:00Z",
+  "updated_at": "2026-11-23T07:40:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. Numune alınmayacak; tanıtım videoları onaylanacak ürün görsellerinden hazırlanacak. Destek adresi kuruldu, denemesi bekliyor. Sırada ürün görseli, tedarikçi fiyatları ve ChatGPT görevinin kurulması var.",
+  "note": "Hazırlık sürüyor. ChatGPT görevi kuruldu; ilk ürün görselleri geldi, biri düzeltilecek. Sırada görsel onayı, destek adresi denemesi ve tedarikçi fiyatları var.",
   "runs": {
-    "claude": "2026-11-23T07:25:00Z",
+    "claude": "2026-11-23T07:40:00Z",
     "chatgpt": null
   },
   "phase": {
@@ -16,15 +16,8 @@
   },
   "tasks": [
     {
-      "id": "urun-gorseli",
-      "title": "Ürün görseli talimatını ChatGPT'ye ver; gelen görselleri Claude'a gönder",
-      "done": false,
-      "due": "2026-11-23",
-      "done_at": null
-    },
-    {
-      "id": "chatgpt-gorevi",
-      "title": "ChatGPT'ye \"Satış hattı taraması\" görev metnini ver (güncel sürüm; her gün 11.00 ve 20.30)",
+      "id": "gorsel-onayi",
+      "title": "Düzeltilmiş ürün görsellerine bak; beğendiysen onayla",
       "done": false,
       "due": "2026-11-23",
       "done_at": null
@@ -42,6 +35,20 @@
       "done": false,
       "due": "2026-11-24",
       "done_at": null
+    },
+    {
+      "id": "urun-gorseli",
+      "title": "Ürün görseli talimatını ChatGPT'ye ver; gelen görselleri Claude'a gönder",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T07:40:00Z"
+    },
+    {
+      "id": "chatgpt-gorevi",
+      "title": "ChatGPT'ye \"Satış hattı taraması\" görev metnini ver (güncel sürüm; her gün 11.00 ve 20.30)",
+      "done": true,
+      "due": null,
+      "done_at": "2026-11-23T07:40:00Z"
     },
     {
       "id": "destek-adresi",
@@ -92,7 +99,7 @@
       "slug": "01-projeksiyon-bileklik",
       "kind": "urun",
       "title": "Fotoğraflı projeksiyon bileklik",
-      "summary": "İlk ürün. Tedarikçi fiyatları toplanıyor; tanıtım için ürün görseli hazırlanıyor.",
+      "summary": "İlk ürün. Tedarikçi fiyatları toplanıyor; tanıtım görselleri hazırlanıyor (biri düzeltilecek).",
       "stage": "kurgu",
       "next": "sen"
     },
