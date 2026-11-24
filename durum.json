@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T15:25:00Z",
+  "updated_at": "2026-11-24T15:17:00Z",
   "name": "The Picked Few",
   "note": "Bekleme listesi sayfası thepickedfew.com adresinde yayında; kayıtlar panele düşüyor. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
   "runs": {
@@ -17,10 +17,10 @@
   "tasks": [
     {
       "id": "bekleme-https",
-      "title": "19.00 · GitHub Pages'te \"Enforce HTTPS\"i işaretle; thepickedfew.com'da kendi adresinle deneme kaydı yap, panelde sayıya bak",
-      "done": false,
+      "title": "GitHub Pages'te HTTPS'i aç; deneme kaydı yap, panelde sayıya bak",
+      "done": true,
       "due": "2026-11-24",
-      "done_at": null
+      "done_at": "2026-11-24T15:17:00Z"
     },
     {
       "id": "bekleme-listesi-onay",
