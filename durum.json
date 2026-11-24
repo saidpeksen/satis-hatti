@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T12:06:00Z",
+  "updated_at": "2026-11-24T13:02:00Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. V02–V05 videoları bu sayfada kararını bekliyor; V06 ve V07 kurguda. Yayın bekleme listesi sayfası açılınca başlar; destek e-posta yönlendirmesi çalışmıyor, Metunic yanıtı bekleniyor.",
+  "note": "V01–V05 onaylandı; yayın bekleme listesi sayfası açılana kadar bekletiliyor. V06 ve V07 kurguda. Destek e-posta yönlendirmesi çalışmıyor, Metunic yanıtı bekleniyor.",
   "runs": {
     "claude": "2026-11-24T08:46:37Z",
     "chatgpt": "2026-11-24T08:04:00Z"
