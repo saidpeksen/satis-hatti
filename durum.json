@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T15:19:00Z",
+  "updated_at": "2026-11-24T19:21:00Z",
   "name": "The Picked Few",
   "note": "Bekleme listesi thepickedfew.com'da yayında; video yayını açıldı. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
   "runs": {
@@ -159,9 +159,9 @@
       "slug": "01-fotograf-tasta",
       "kind": "video",
       "title": "The photo only appears when you shine a light",
-      "summary": "Onaylandı. Yayın, bekleme listesi sayfası açılınca.",
-      "stage": "beklemede",
-      "next": "claude",
+      "summary": "Onaylandı. Yayın açık; ChatGPT YouTube Shorts'a yükler.",
+      "stage": "yayin",
+      "next": "chatgpt",
       "file": true,
       "bytes": 4722007,
       "sha256": "7016a6f13f43c2d4025f43fa5a0be2c3edd8cc5f367e290916ca4d698f43ba78",
@@ -231,6 +231,15 @@
       "title": "It looks like a plain stone until the light hits",
       "summary": "Fotoğrafın taştan çıktığı an. Sıradan görünen taşa ışık tutulur (canlandırma).",
       "stage": "kurgu"
+    },
+    {
+      "no": 10,
+      "slug": "03-giyilebilir-sandalye",
+      "kind": "urun",
+      "title": "Giyilebilir taşınabilir sandalye (aday)",
+      "summary": "Said'in önerdiği aday. 11 Aralık karar kapısına kadar beklemede; takı testi zayıf çıkarsa ayrı markayla yeniden değerlendirilir. Senden beklenen iş yok.",
+      "stage": "beklemede",
+      "next": "claude"
     }
   ],
   "publish_open": true
