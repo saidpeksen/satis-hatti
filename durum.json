@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T14:26:00Z",
+  "updated_at": "2026-11-24T15:25:00Z",
   "name": "The Picked Few",
-  "note": "Bekleme listesi sayfası ve kayıt ucu hazır, yayında değil; onay ve DNS kaydı bekleniyor. Yayın bu sayfa açılınca başlar. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
+  "note": "Bekleme listesi sayfası thepickedfew.com adresinde yayında; kayıtlar panele düşüyor. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
   "runs": {
     "claude": "2026-11-24T08:46:37Z",
     "chatgpt": "2026-11-24T08:04:00Z"
@@ -16,11 +16,18 @@
   },
   "tasks": [
     {
-      "id": "bekleme-listesi-onay",
-      "title": "25 Kasım 19.00 · Bekleme listesi sayfasına bak; onaylarsan sohbete \"131 kur onay\" yaz, Metunic'te 5 DNS kaydı gir (adımlar sohbette)",
+      "id": "bekleme-https",
+      "title": "19.00 · GitHub Pages'te \"Enforce HTTPS\"i işaretle; thepickedfew.com'da kendi adresinle deneme kaydı yap, panelde sayıya bak",
       "done": false,
-      "due": "2026-11-25",
+      "due": "2026-11-24",
       "done_at": null
+    },
+    {
+      "id": "bekleme-listesi-onay",
+      "title": "Bekleme listesi: kurulum onayı, DNS kayıtları ve GitHub Pages ayarı",
+      "done": true,
+      "due": "2026-11-25",
+      "done_at": "2026-11-24T15:25:00Z"
     },
     {
       "id": "bekleme-listesi-basla",
