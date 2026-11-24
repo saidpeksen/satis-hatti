@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T13:02:00Z",
+  "updated_at": "2026-11-24T14:11:00Z",
   "name": "The Picked Few",
   "note": "V01–V05 onaylandı; yayın bekleme listesi sayfası açılana kadar bekletiliyor. V06 ve V07 kurguda. Destek e-posta yönlendirmesi çalışmıyor, Metunic yanıtı bekleniyor.",
   "runs": {
@@ -15,6 +15,13 @@
     "gate_date": "2026-11-27"
   },
   "tasks": [
+    {
+      "id": "bekleme-listesi-basla",
+      "title": "19.00 · Bu sohbete \"bekleme listesi başla\" yaz; Claude sayfa önerisini bu akşam hazırlar (yarınki bulut görevi kurulamadı)",
+      "done": false,
+      "due": "2026-11-24",
+      "done_at": null
+    },
     {
       "id": "bekleme-listesi",
       "title": "26 Kasım 09.30 · Bekleme listesi sayfasını incele ve onayla (Claude 25 Kasım akşamına hazırlar)",
