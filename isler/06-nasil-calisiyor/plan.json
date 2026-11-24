@@ -1,0 +1,58 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G11",
+      "sure": 2.8,
+      "hareket": "yakinlas",
+      "odak": [
+        0.75,
+        0.5
+      ],
+      "yazi": "Step 1: choose one photo"
+    },
+    {
+      "gorsel": "G03",
+      "sure": 2.6,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Step 2: it goes inside the stone"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 2.6,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ],
+      "yazi": "Step 3: shine a light through it"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 3.8,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H01",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G02",
+      "sure": 3.0,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.7
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-23T10:30:00Z",
+  "updated_at": "2026-11-24T08:46:37Z",
   "name": "The Picked Few",
-  "note": "Hazırlık sürüyor. 02 ve 03 numaralı videolar bu sayfada kararını bekliyor; 04 kurgu sırasında. 01 onaylı. Yayın, bekleme listesi sayfası açılınca başlar.",
+  "note": "Hazırlık sürüyor. 02, 03, 04 ve 05 numaralı videolar bu sayfada kararını bekliyor; 06 ve 07 kurgu sırasında. Yayın, bekleme listesi sayfası açılınca başlar.",
   "runs": {
-    "claude": "2026-11-23T08:46:12Z",
-    "chatgpt": "2026-11-23T08:04:00Z"
+    "claude": "2026-11-24T08:46:37Z",
+    "chatgpt": "2026-11-24T08:04:00Z"
   },
   "phase": {
     "no": 0,
@@ -18,16 +18,16 @@
     {
       "id": "kopru-baglantisi",
       "title": "Bu sayfada \"Bağlantı üret\"e bas; bağlantıyı ChatGPT'deki görev metnine yapıştır (başka yere yazma)",
-      "done": false,
+      "done": true,
       "due": "2026-11-23",
-      "done_at": null
+      "done_at": "2026-11-23T17:30:00Z"
     },
     {
       "id": "instagram-oturumu",
       "title": "ChatGPT'nin tarayıcısında Instagram'da @thepickedfew oturumunu aç (mesaj kontrolü burada durdu)",
-      "done": false,
+      "done": true,
       "due": null,
-      "done_at": null
+      "done_at": "2026-11-23T17:30:00Z"
     },
     {
       "id": "destek-denemesi",
@@ -177,6 +177,38 @@
       "kind": "video",
       "title": "A photo to keep close, hidden in a stone",
       "summary": "Anma hediyesi. Yakın tutmak istenen bir fotoğraf taşın içinde (canlandırma).",
+      "stage": "onay",
+      "file": true,
+      "bytes": 3631069,
+      "sha256": "eea1bdee51f36efd85764f06a402f5b8a0ccd4fe9f904ace5987e6ce41604c87",
+      "ready_at": "2026-11-24T08:46:37Z"
+    },
+    {
+      "no": 7,
+      "slug": "05-uzak-mesafe",
+      "kind": "video",
+      "title": "Two bracelets, one memory, miles apart",
+      "summary": "Uzak mesafe çiftler. İki bileklik ve taştan yansıyan sahil fotoğrafı (canlandırma).",
+      "stage": "onay",
+      "file": true,
+      "bytes": 3610595,
+      "sha256": "0f324c6ca1de77c2a36ddffb062c5fbfffba3eb26654e879a62281d07c825c91",
+      "ready_at": "2026-11-24T08:46:37Z"
+    },
+    {
+      "no": 8,
+      "slug": "06-nasil-calisiyor",
+      "kind": "video",
+      "title": "How a photo ends up inside a tiny stone",
+      "summary": "Nasıl çalışıyor. Üç adımda fotoğraf seçimi, taş ve ışık (canlandırma).",
+      "stage": "kurgu"
+    },
+    {
+      "no": 9,
+      "slug": "07-isik-tutunca",
+      "kind": "video",
+      "title": "It looks like a plain stone until the light hits",
+      "summary": "Fotoğrafın taştan çıktığı an. Sıradan görünen taşa ışık tutulur (canlandırma).",
       "stage": "kurgu"
     }
   ]
