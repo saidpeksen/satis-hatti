@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T14:11:00Z",
+  "updated_at": "2026-11-24T14:26:00Z",
   "name": "The Picked Few",
-  "note": "V01–V05 onaylandı; yayın bekleme listesi sayfası açılana kadar bekletiliyor. V06 ve V07 kurguda. Destek e-posta yönlendirmesi çalışmıyor, Metunic yanıtı bekleniyor.",
+  "note": "Bekleme listesi sayfası ve kayıt ucu hazır, yayında değil; onay ve DNS kaydı bekleniyor. Yayın bu sayfa açılınca başlar. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
   "runs": {
     "claude": "2026-11-24T08:46:37Z",
     "chatgpt": "2026-11-24T08:04:00Z"
@@ -16,18 +16,18 @@
   },
   "tasks": [
     {
-      "id": "bekleme-listesi-basla",
-      "title": "19.00 · Bu sohbete \"bekleme listesi başla\" yaz; Claude sayfa önerisini bu akşam hazırlar (yarınki bulut görevi kurulamadı)",
+      "id": "bekleme-listesi-onay",
+      "title": "25 Kasım 19.00 · Bekleme listesi sayfasına bak; onaylarsan sohbete \"131 kur onay\" yaz, Metunic'te 5 DNS kaydı gir (adımlar sohbette)",
       "done": false,
-      "due": "2026-11-24",
+      "due": "2026-11-25",
       "done_at": null
     },
     {
-      "id": "bekleme-listesi",
-      "title": "26 Kasım 09.30 · Bekleme listesi sayfasını incele ve onayla (Claude 25 Kasım akşamına hazırlar)",
-      "done": false,
-      "due": "2026-11-26",
-      "done_at": null
+      "id": "bekleme-listesi-basla",
+      "title": "19.00 · Bu sohbete \"bekleme listesi başla\" yaz; Claude sayfa önerisini bu akşam hazırlar (yarınki bulut görevi kurulamadı)",
+      "done": true,
+      "due": "2026-11-24",
+      "done_at": "2026-11-24T14:26:00Z"
     },
     {
       "id": "kopru-baglantisi",
