@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T11:06:00Z",
+  "updated_at": "2026-11-24T12:06:00Z",
   "name": "The Picked Few",
   "note": "Hazırlık sürüyor. V02–V05 videoları bu sayfada kararını bekliyor; V06 ve V07 kurguda. Yayın bekleme listesi sayfası açılınca başlar; destek e-posta yönlendirmesi çalışmıyor, Metunic yanıtı bekleniyor.",
   "runs": {
@@ -15,20 +15,6 @@
     "gate_date": "2026-11-27"
   },
   "tasks": [
-    {
-      "id": "yayin-istisnasi",
-      "title": "09.30 · Öne çekilecek videonun numarasını sohbete yaz (\"V02 yayın istisnası onay\"); yazmazsan yayın kapalı kalır",
-      "done": false,
-      "due": "2026-11-25",
-      "done_at": null
-    },
-    {
-      "id": "kapi-kurali",
-      "title": "09.30 · Karar kapısını seç ve sohbete yaz: \"150 altı dur\" ya da \"30–149 sarı, iki hafta daha\"",
-      "done": false,
-      "due": "2026-11-25",
-      "done_at": null
-    },
     {
       "id": "bekleme-listesi",
       "title": "26 Kasım 09.30 · Bekleme listesi sayfasını incele ve onayla (Claude 25 Kasım akşamına hazırlar)",
