@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T15:17:00Z",
+  "updated_at": "2026-11-24T15:19:00Z",
   "name": "The Picked Few",
-  "note": "Bekleme listesi sayfası thepickedfew.com adresinde yayında; kayıtlar panele düşüyor. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
+  "note": "Bekleme listesi thepickedfew.com'da yayında; video yayını açıldı. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
   "runs": {
     "claude": "2026-11-24T08:46:37Z",
     "chatgpt": "2026-11-24T08:04:00Z"
@@ -232,5 +232,6 @@
       "summary": "Fotoğrafın taştan çıktığı an. Sıradan görünen taşa ışık tutulur (canlandırma).",
       "stage": "kurgu"
     }
-  ]
+  ],
+  "publish_open": true
 }
