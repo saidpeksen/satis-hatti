@@ -1,0 +1,71 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G04",
+      "sure": 3.4,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.55
+      ],
+      "yazi": "What if your dog came everywhere?"
+    },
+    {
+      "gorsel": "G03",
+      "sure": 3.0,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "It's hiding in this tiny stone"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 3.0,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ]
+    },
+    {
+      "gorsel": "G07",
+      "sure": 3.8,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H01",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G11",
+      "sure": 2.6,
+      "hareket": "sabit",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Your pet's photo, chosen by you",
+      "yerlestir": {
+        "foto": "H01",
+        "alan": "baski"
+      }
+    },
+    {
+      "gorsel": "G02",
+      "sure": 2.6,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.7
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G05",
+      "sure": 3.0,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Not just another bracelet in a box"
+    },
+    {
+      "gorsel": "G06",
+      "sure": 2.6,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "gorsel": "G03",
+      "sure": 2.4,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Look closer at the stone"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 2.4,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ]
+    },
+    {
+      "gorsel": "G07",
+      "sure": 4.0,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H02",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G10",
+      "sure": 3.0,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}

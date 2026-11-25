@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-24T19:21:00Z",
+  "updated_at": "2026-11-25T08:46:30Z",
   "name": "The Picked Few",
-  "note": "Bekleme listesi thepickedfew.com'da yayında; video yayını açıldı. V06 ve V07 kurguda; destek e-posta yönlendirmesi çalışmıyor.",
+  "note": "V01–V05 YouTube Shorts'ta yayında; V06 ve V07 onaya sunuldu. V08–V10 kurguda; destek e-posta yönlendirmesi henüz doğrulanmadı.",
   "runs": {
-    "claude": "2026-11-24T08:46:37Z",
-    "chatgpt": "2026-11-24T08:04:00Z"
+    "claude": "2026-11-25T08:46:30Z",
+    "chatgpt": "2026-11-25T08:00:00Z"
   },
   "phase": {
     "no": 0,
@@ -159,14 +159,15 @@
       "slug": "01-fotograf-tasta",
       "kind": "video",
       "title": "The photo only appears when you shine a light",
-      "summary": "Onaylandı. Yayın açık; ChatGPT YouTube Shorts'a yükler.",
-      "stage": "yayin",
-      "next": "chatgpt",
+      "summary": "Fotoğrafın taştan çıktığı an (canlandırma). YouTube Shorts'ta yayında.",
+      "stage": "yayinda",
       "file": true,
       "bytes": 4722007,
       "sha256": "7016a6f13f43c2d4025f43fa5a0be2c3edd8cc5f367e290916ca4d698f43ba78",
       "ready_at": "2026-11-23T08:10:00Z",
-      "approved_at": "2026-11-23T08:20:00Z"
+      "approved_at": "2026-11-23T08:20:00Z",
+      "published_at": "2026-11-25T08:06:00Z",
+      "public_url": "https://youtube.com/shorts/E-QwxNKdmyc"
     },
     {
       "no": 4,
@@ -174,11 +175,13 @@
       "kind": "video",
       "title": "This gift is hiding a photo inside",
       "summary": "Hediye fikri. Kutu açılır, taşın içindeki fotoğraf ışıkla belirir (canlandırma).",
-      "stage": "onay",
+      "stage": "yayinda",
       "file": true,
       "bytes": 4647606,
       "sha256": "8aae6448346c884b87beb444c243ea737552776e8341c1e2efd3f4591c02ec52",
-      "ready_at": "2026-11-23T08:46:12Z"
+      "ready_at": "2026-11-23T08:46:12Z",
+      "published_at": "2026-11-24T17:37:00Z",
+      "public_url": "https://youtube.com/shorts/pM6s3B12kRM"
     },
     {
       "no": 5,
@@ -186,11 +189,13 @@
       "kind": "video",
       "title": "My cat is hidden inside this bracelet",
       "summary": "Evcil hayvan fotoğrafı. Bilekteki taştan kedi fotoğrafı yansır (canlandırma).",
-      "stage": "onay",
+      "stage": "yayinda",
       "file": true,
       "bytes": 4546856,
       "sha256": "ba81ac1229593dd431a28c0ffb70fa567bd229ce36b8948382dc896857f157af",
-      "ready_at": "2026-11-23T08:46:12Z"
+      "ready_at": "2026-11-23T08:46:12Z",
+      "published_at": "2026-11-24T17:41:00Z",
+      "public_url": "https://youtube.com/shorts/JhD8DJWTzwM"
     },
     {
       "no": 6,
@@ -198,11 +203,13 @@
       "kind": "video",
       "title": "A photo to keep close, hidden in a stone",
       "summary": "Anma hediyesi. Yakın tutmak istenen bir fotoğraf taşın içinde (canlandırma).",
-      "stage": "onay",
+      "stage": "yayinda",
       "file": true,
       "bytes": 3631069,
       "sha256": "eea1bdee51f36efd85764f06a402f5b8a0ccd4fe9f904ace5987e6ce41604c87",
-      "ready_at": "2026-11-24T08:46:37Z"
+      "ready_at": "2026-11-24T08:46:37Z",
+      "published_at": "2026-11-24T17:42:00Z",
+      "public_url": "https://youtube.com/shorts/BX7_kNgJTNg"
     },
     {
       "no": 7,
@@ -210,11 +217,13 @@
       "kind": "video",
       "title": "Two bracelets, one memory, miles apart",
       "summary": "Uzak mesafe çiftler. İki bileklik ve taştan yansıyan sahil fotoğrafı (canlandırma).",
-      "stage": "onay",
+      "stage": "yayinda",
       "file": true,
       "bytes": 3610595,
       "sha256": "0f324c6ca1de77c2a36ddffb062c5fbfffba3eb26654e879a62281d07c825c91",
-      "ready_at": "2026-11-24T08:46:37Z"
+      "ready_at": "2026-11-24T08:46:37Z",
+      "published_at": "2026-11-24T17:42:00Z",
+      "public_url": "https://youtube.com/shorts/jk1jQWk7hMI"
     },
     {
       "no": 8,
@@ -222,7 +231,11 @@
       "kind": "video",
       "title": "How a photo ends up inside a tiny stone",
       "summary": "Nasıl çalışıyor. Üç adımda fotoğraf seçimi, taş ve ışık (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 3602166,
+      "sha256": "a8b3897e09d6aad904ca1a4e9f559af0ceed5f26adbf7cf63c1afa35e3602142",
+      "ready_at": "2026-11-25T08:46:30Z"
     },
     {
       "no": 9,
@@ -230,7 +243,11 @@
       "kind": "video",
       "title": "It looks like a plain stone until the light hits",
       "summary": "Fotoğrafın taştan çıktığı an. Sıradan görünen taşa ışık tutulur (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 3982510,
+      "sha256": "e4b799d810e0b45e43a9443653dd476102112d6741462d79b80a16bfe71fed87",
+      "ready_at": "2026-11-25T08:46:30Z"
     },
     {
       "no": 10,
@@ -240,6 +257,30 @@
       "summary": "Said'in önerdiği aday. 11 Aralık karar kapısına kadar beklemede; takı testi zayıf çıkarsa ayrı markayla yeniden değerlendirilir. Senden beklenen iş yok.",
       "stage": "beklemede",
       "next": "claude"
+    },
+    {
+      "no": 11,
+      "slug": "08-hediye-kutusu",
+      "kind": "video",
+      "title": "Not just another bracelet in a box",
+      "summary": "Hediye fikri. Kutudan çıkan bileklik; taştan sahildeki çiftin fotoğrafı yansır (canlandırma).",
+      "stage": "kurgu"
+    },
+    {
+      "no": 12,
+      "slug": "09-kopek-fotografi",
+      "kind": "video",
+      "title": "What if your dog came everywhere with you?",
+      "summary": "Evcil hayvan fotoğrafı. Taştan köpek yavrusu fotoğrafı yansır, baskıda da görünür (canlandırma).",
+      "stage": "kurgu"
+    },
+    {
+      "no": 13,
+      "slug": "10-tasidigimiz-anilar",
+      "kind": "video",
+      "title": "For the ones we carry with us",
+      "summary": "Anma hediyesi. Özlenen birinin fotoğrafı taşın içinde; ışıkla belirir (canlandırma).",
+      "stage": "kurgu"
     }
   ],
   "publish_open": true
