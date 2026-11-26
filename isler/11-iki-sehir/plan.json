@@ -1,0 +1,71 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G08",
+      "sure": 3.4,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.55
+      ],
+      "yazi": "One for you, one for them"
+    },
+    {
+      "gorsel": "G02",
+      "sure": 3.0,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.72
+      ],
+      "yazi": "Two cities, one shared photo"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 2.8,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ]
+    },
+    {
+      "gorsel": "G07",
+      "sure": 3.6,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H02",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G11",
+      "sure": 2.4,
+      "hareket": "sabit",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "The photo you both choose",
+      "yerlestir": {
+        "foto": "H02",
+        "alan": "baski"
+      }
+    },
+    {
+      "gorsel": "G04",
+      "sure": 2.4,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.55
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}
