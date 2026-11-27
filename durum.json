@@ -1,26 +1,33 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-26T08:52:53Z",
+  "updated_at": "2026-11-27T08:50:00Z",
   "name": "The Picked Few",
-  "note": "V08 ve V09 onaya sunuldu; V10 kurguda, V11–V13 paketleri yazıldı. ChatGPT'nin son iki taraması bir tedarikçi girişinde durduğu için kanallar ve köprü okunamadı (o istek kapatıldı); destek e-posta yönlendirmesi hâlâ doğrulanmadı.",
+  "note": "V10 ve V11 onaya sunuldu; V12–V15 kurguda (15 video paketi tamam). ChatGPT'nin son taraması TikTok robot doğrulamasında durdu; V08 ve V09 hiçbir kanala yüklenmedi.",
   "runs": {
-    "claude": "2026-11-26T08:52:53Z",
-    "chatgpt": "2026-11-26T08:04:00Z"
+    "claude": "2026-11-27T08:50:00Z",
+    "chatgpt": "2026-11-27T07:56:00Z"
   },
   "phase": {
-    "no": 0,
-    "name": "Hazırlık",
-    "gate_name": "Talep testi başlangıcı",
-    "gate_date": "2026-11-27"
+    "no": 1,
+    "name": "Talep testi",
+    "gate_name": "Karar Kapısı 1",
+    "gate_date": "2026-12-11"
   },
   "tasks": [
     {
+      "id": "tiktok-dogrulama",
+      "title": "19.00 · ChatGPT'nin tarayıcısında TikTok @thepickedfew robot doğrulamasını tamamla (yükleme ve kontrol burada duruyor)",
+      "done": false,
+      "due": "2026-11-27",
+      "done_at": null
+    },
+    {
       "id": "gorev-istek-kurali",
       "title": "19.00 · Satış sohbetinde onayla: ChatGPT taramasında oturum isteyen istek yalnız o adımda dursun, kanallar ve köprü okunmaya devam etsin",
-      "done": false,
+      "done": true,
       "due": "2026-11-26",
-      "done_at": null
+      "done_at": "2026-11-27T07:56:00Z"
     },
     {
       "id": "bekleme-https",
@@ -102,9 +109,9 @@
     {
       "id": "destek-adresi",
       "title": "Destek e-posta yönlendirmesini kur",
-      "done": false,
+      "done": true,
       "due": null,
-      "done_at": null
+      "done_at": "2026-11-27T07:56:00Z"
     },
     {
       "id": "gorev-onayi",
@@ -295,7 +302,11 @@
       "kind": "video",
       "title": "For the ones we carry with us",
       "summary": "Anma hediyesi. Özlenen birinin fotoğrafı taşın içinde; ışıkla belirir (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 5229586,
+      "sha256": "bc21b98f1e9895afe5750d51a438b85d6fc8ab88aad1ef3459c0371a6fc1974e",
+      "ready_at": "2026-11-27T08:50:00Z"
     },
     {
       "no": 14,
@@ -303,7 +314,11 @@
       "kind": "video",
       "title": "One for you, one for them, miles apart",
       "summary": "Uzak mesafe çiftler. İki bileklik; taştan ve baskıdan sahildeki çiftin fotoğrafı (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 4387955,
+      "sha256": "e1eee7df9ad7f5e2bc7555a16d2769516afe8dc11a724163893ae9500b1ceab4",
+      "ready_at": "2026-11-27T08:50:00Z"
     },
     {
       "no": 15,
@@ -319,6 +334,22 @@
       "kind": "video",
       "title": "Turn off the lights for this one",
       "summary": "Fotoğrafın taştan çıktığı an. Karanlık odada taşa ışık tutulur (canlandırma).",
+      "stage": "kurgu"
+    },
+    {
+      "no": 17,
+      "slug": "14-ne-alsam",
+      "kind": "video",
+      "title": "What do you get someone who has everything?",
+      "summary": "Hediye fikri. Elden ele uzatılan kutu; taştan sahildeki çiftin fotoğrafı yansır, baskıda da görünür (canlandırma).",
+      "stage": "kurgu"
+    },
+    {
+      "no": 18,
+      "slug": "15-patili-dost",
+      "kind": "video",
+      "title": "Guess who's hiding inside this tiny stone",
+      "summary": "Evcil hayvan fotoğrafı. Tahmin oyunu; taştan köpek yavrusu fotoğrafı yansır, baskıda da görünür (canlandırma).",
       "stage": "kurgu"
     }
   ],

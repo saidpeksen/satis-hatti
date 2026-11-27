@@ -1,0 +1,71 @@
+{
+  "sahneler": [
+    {
+      "gorsel": "G03",
+      "sure": 3.0,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Guess who's hiding in this stone"
+    },
+    {
+      "gorsel": "G02",
+      "sure": 2.8,
+      "hareket": "yakinlas",
+      "odak": [
+        0.5,
+        0.72
+      ],
+      "yazi": "Someone with four paws"
+    },
+    {
+      "gorsel": "G07",
+      "sure": 2.6,
+      "hareket": "yakinlas",
+      "odak": [
+        0.55,
+        0.45
+      ]
+    },
+    {
+      "gorsel": "G07",
+      "sure": 3.8,
+      "hareket": "sabit",
+      "odak": [
+        0.55,
+        0.4
+      ],
+      "yerlestir": {
+        "foto": "H01",
+        "alan": "daire",
+        "belir": true
+      }
+    },
+    {
+      "gorsel": "G11",
+      "sure": 2.6,
+      "hareket": "sabit",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Your pet, always on your wrist",
+      "yerlestir": {
+        "foto": "H01",
+        "alan": "baski"
+      }
+    },
+    {
+      "gorsel": "G01",
+      "sure": 2.6,
+      "hareket": "uzaklas",
+      "odak": [
+        0.5,
+        0.5
+      ],
+      "yazi": "Join the waitlist · link in bio"
+    }
+  ]
+}
