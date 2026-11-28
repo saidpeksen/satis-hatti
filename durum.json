@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "line": "satis",
-  "updated_at": "2026-11-27T08:50:00Z",
+  "updated_at": "2026-11-28T08:45:00Z",
   "name": "The Picked Few",
-  "note": "V10 ve V11 onaya sunuldu; V12–V15 kurguda (15 video paketi tamam). ChatGPT'nin son taraması TikTok robot doğrulamasında durdu; V08 ve V09 hiçbir kanala yüklenmedi.",
+  "note": "V12 ve V13 onaya sunuldu; V14 ve V15 kurguda. V08 ve V09 28.11'de YouTube Shorts'ta yayınlandı; Instagram ve TikTok'ta yayın yok, TikTok robot doğrulaması ChatGPT taramasını yine durduruyor.",
   "runs": {
-    "claude": "2026-11-27T08:50:00Z",
-    "chatgpt": "2026-11-27T07:56:00Z"
+    "claude": "2026-11-28T08:45:00Z",
+    "chatgpt": "2026-11-28T08:04:00Z"
   },
   "phase": {
     "no": 1,
@@ -16,11 +16,25 @@
   },
   "tasks": [
     {
+      "id": "kapsam-onayi",
+      "title": "19.00 · ChatGPT dosya devri için kapsam onayı istiyor (YouTube V10–V11, Instagram V08–V11); uygun görürsen ChatGPT'ye bildir",
+      "done": false,
+      "due": "2026-11-28",
+      "done_at": null
+    },
+    {
+      "id": "tiktok-dogrulama-2",
+      "title": "19.00 · ChatGPT tarayıcısında TikTok @thepickedfew kaydırmalı robot doğrulamasını yeniden tamamla (28.11'de yine çıktı)",
+      "done": false,
+      "due": "2026-11-28",
+      "done_at": null
+    },
+    {
       "id": "tiktok-dogrulama",
       "title": "19.00 · ChatGPT'nin tarayıcısında TikTok @thepickedfew robot doğrulamasını tamamla (yükleme ve kontrol burada duruyor)",
-      "done": false,
+      "done": true,
       "due": "2026-11-27",
-      "done_at": null
+      "done_at": "2026-11-27T17:34:00Z"
     },
     {
       "id": "gorev-istek-kurali",
@@ -277,24 +291,28 @@
       "slug": "08-hediye-kutusu",
       "kind": "video",
       "title": "Not just another bracelet in a box",
-      "summary": "Hediye fikri. Kutudan çıkan bileklik; taştan sahildeki çiftin fotoğrafı yansır (canlandırma).",
-      "stage": "onay",
+      "summary": "Hediye fikri. Kutudan çıkan bileklik; taştan sahildeki çiftin fotoğrafı yansır (canlandırma). YouTube Shorts'ta yayında.",
+      "stage": "yayinda",
       "file": true,
       "bytes": 5357984,
       "sha256": "7ff973e0515bfad198269974f35c915825caf9699fc2fc8029868f0a9d6f6fd1",
-      "ready_at": "2026-11-26T08:52:53Z"
+      "ready_at": "2026-11-26T08:52:53Z",
+      "published_at": "2026-11-27T23:48:00Z",
+      "public_url": "https://www.youtube.com/shorts/yu6VJuQs43A"
     },
     {
       "no": 12,
       "slug": "09-kopek-fotografi",
       "kind": "video",
       "title": "What if your dog came everywhere with you?",
-      "summary": "Evcil hayvan fotoğrafı. Taştan köpek yavrusu fotoğrafı yansır, baskıda da görünür (canlandırma).",
-      "stage": "onay",
+      "summary": "Evcil hayvan fotoğrafı. Taştan köpek yavrusu fotoğrafı yansır, baskıda da görünür (canlandırma). YouTube Shorts'ta yayında.",
+      "stage": "yayinda",
       "file": true,
       "bytes": 4335258,
       "sha256": "ac1455863dbbac2265b464ff4dc8e63365925becbe035d5c544125f1c8b7ffdf",
-      "ready_at": "2026-11-26T08:52:53Z"
+      "ready_at": "2026-11-26T08:52:53Z",
+      "published_at": "2026-11-27T23:48:00Z",
+      "public_url": "https://www.youtube.com/shorts/C3Yle3ndQ7Q"
     },
     {
       "no": 13,
@@ -326,7 +344,11 @@
       "kind": "video",
       "title": "Where does the photo actually go?",
       "summary": "Nasıl çalışıyor. Soru-cevap biçiminde; taştan kedi fotoğrafı yansır, baskıda da görünür (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 3315427,
+      "sha256": "2154f84c7c702d5c712a9afa48446a032c07a1603f623e3845bee6c7729bb324",
+      "ready_at": "2026-11-28T08:45:00Z"
     },
     {
       "no": 16,
@@ -334,7 +356,11 @@
       "kind": "video",
       "title": "Turn off the lights for this one",
       "summary": "Fotoğrafın taştan çıktığı an. Karanlık odada taşa ışık tutulur (canlandırma).",
-      "stage": "kurgu"
+      "stage": "onay",
+      "file": true,
+      "bytes": 3355518,
+      "sha256": "fbff98c0874c510f006014339a0b65739e8b981497e3d58dc51cfec35b18a866",
+      "ready_at": "2026-11-28T08:45:00Z"
     },
     {
       "no": 17,
@@ -353,5 +379,19 @@
       "stage": "kurgu"
     }
   ],
-  "publish_open": true
+  "publish_open": true,
+  "metrics": [
+    {
+      "key": "izlenme",
+      "label": "Toplam izlenme (YouTube; TikTok bilinmiyor)",
+      "value": 1555,
+      "as_of": "2026-11-27T17:34:00Z"
+    },
+    {
+      "key": "takipci",
+      "label": "Toplam takipçi (YouTube+Instagram; TikTok bilinmiyor)",
+      "value": 3,
+      "as_of": "2026-11-27T17:34:00Z"
+    }
+  ]
 }
